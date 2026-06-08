@@ -1,6 +1,6 @@
 print("python classes")
 # ye hello world ka print he    
-#print("Hello World")
+print("Hello World")
 
 # this is the code, we are learning python
 
@@ -8,14 +8,14 @@ print("python classes")
 
 
 # this is how you create variables
-# num = 183 + 90
-# num1 = 9
-# num2 = 8
-# print(19 / 2)
-# print(16 % 9)
-# print(18 // 2)
+num = 183 + 90
+num1 = 9
+num2 = 8
+print(19 / 2)
+print(16 % 9)
+print(18 // 2)
 
-# print(4 ** 4    )
+print(4 ** 3    )
 
 # Operators
 
