@@ -61,10 +61,10 @@ num = 90
 # 2 X 1 = 2
 # 2 X 2 = 4
 
-table = 38769
+# table = 38769
 
-for num in range(1 , 11):
-    print(table * num)
+# for num in range(1 , 11):
+#     print(table * num)
     # 2 * 1
     # 2 * 2
     # 2 * 3
@@ -75,3 +75,7 @@ for num in range(1 , 11):
     # 2 * 8
     # 2 * 9
     # 2 * 10
+
+    
+    
+    

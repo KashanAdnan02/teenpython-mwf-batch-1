@@ -57,7 +57,11 @@ num2 = input("Enter any 2nd random number : ")
 
 newNum1 = int(num1)
 newNum2 = int(num2)
-print(newNum1 + newNum2)
+
+print(newNum1 + newNum2)# sum
+print(newNum1 - newNum2) # minus
+print(newNum1 * newNum2) # multi
+print(newNum1 / newNum2) # Division
 # print(type(num1))
 # print(type(num2))
 # print(num1 + num2)
