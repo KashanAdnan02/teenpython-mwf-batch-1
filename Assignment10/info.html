@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Syed Umar Farooq - Portfolio</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 20px;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 90vh;
+        }
+        /* Style for the interactive button container */
+        .action-container {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .view-btn {
+            background-color: #0056b3;
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            font-size: 1.1em;
+            font-weight: bold;
+            border-radius: 50px;
+            cursor: pointer;
+            box-shadow: 0 4px 10px rgba(0, 86, 179, 0.3);
+            transition: all 0.3s ease;
+        }
+        .view-btn:hover {
+            background-color: #004085;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 15px rgba(0, 86, 179, 0.4);
+        }
+        .view-btn:active {
+            transform: translateY(1px);
+        }
+        /* Style for the hidden CV profile element */
+        .cv-container {
+            max-width: 800px;
+            width: 100%;
+            background: #ffffff;
+            padding: 40px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            border-top: 8px solid #0056b3;
+            box-sizing: border-box;
+            display: none; /* Hidden on page load */
+            opacity: 0;
+            transition: opacity 0.5s ease-in-out;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 20px;
+            margin-bottom: 25px;
+        }
+        .header h1 {
+            margin: 0 0 10px 0;
+            color: #0056b3;
+            font-size: 2.2em;
+            letter-spacing: 0.5px;
+        }
+        .header p {
+            margin: 5px 0;
+            color: #555;
+            font-size: 1.1em;
+        }
+        .section {
+            margin-bottom: 25px;
+        }
+        .section-title {
+            font-size: 1.3em;
+            color: #0056b3;
+            border-bottom: 1px solid #0056b3;
+            padding-bottom: 5px;
+            margin-bottom: 12px;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+        .info-block {
+            margin-bottom: 15px;
+        }
+        .info-title {
+            font-weight: bold;
+            color: #1a202c;
+            font-size: 1.1em;
+        }
+        .info-sub {
+            color: #4a5568;
+            font-style: italic;
+            margin: 2px 0 5px 0;
+        }
+        ul {
+            margin: 5px 0;
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 5px;
+            line-height: 1.5;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Container for the View Button -->
+    <div class="action-container">
+        <button class="view-btn" id="viewBtn">View My Profile</button>
+    </div>
+
+    <!-- Container where JavaScript injects your CV content -->
+    <div class="cv-container" id="cv"></div>
+
+    <!-- Linking external JavaScript file -->
+    <script src="info.js"></script>
+
+</body>
+</html>
